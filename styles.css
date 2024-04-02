@@ -1,0 +1,90 @@
+* {
+box-sizing: border-box;
+}
+
+body, html {
+margin: 0;
+padding: 0;
+height: 100vh;
+font-family: "Candara", sans-serif;
+}
+
+main {
+margin: 30px 30px;
+}
+
+#navbar {
+position: fixed;
+width: 25%;
+background-color: white;
+color: black;
+top: 0;
+left: 0;
+height: 100vh;
+border-right: 7px double black;
+}
+
+code {
+display: block;
+text-align: left;
+background-color: #d3d3d3;
+padding: 15px;
+margin: 10px;
+border-radius: 5px;
+}
+
+#navbar li, #navbar header {
+height: 140px;
+border-top: 5px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-weight: bold;
+}
+
+#navbar header {
+background-color: black;
+color: red;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+color: black
+}
+
+section {
+margin: 0 0 100px 0;
+}
+
+section header {
+font-weight: bold;
+text-decoration: underline;
+}
+
+a:hover {
+color: red
+}
+
+#navbar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#main-doc {
+display: block;
+position: absolute;
+left: 25%;
+padding: 10px;
+margin-bottom: 110px;
+font-size: 30px;
+right: 0
+}
+
+@media only screen and (max-width: 600px) {
+/* CSS rules for small screens */
+}
+
+
